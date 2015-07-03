@@ -1,8 +1,7 @@
-
 SUBDIRS = src lib
-bin_PROGRAMS = bcdroid
+bin_PROGRAMS = bumdd
 
 AM_CXXFLAGS = $(INTI_CFLAGS)
 
-helloworld_SOURCES = main.cc helloworld.cc helloworld.h
-helloworld_LDADD = $(INTI_LIBS)
+bumdd_SOURCES = bumdd.cc
+bummdd_LDADD = $(INTI_LIBS)
