@@ -12,3 +12,7 @@ Makefile.in
 /install-sh
 /missing
 /stamp-h1
+/.deps/
+/config.log
+/config.status
+/main.o
